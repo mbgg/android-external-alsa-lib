@@ -43,6 +43,7 @@ ALL_PREBUILT += $(copy_to)
 
 include $(CLEAR_VARS)
 
+LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE := libasound
 
 LOCAL_PRELINK_MODULE := false
