@@ -32,6 +32,8 @@
 extern "C" {
 #endif
 
+#include <alsa/global.h>
+
 /**
  *  \defgroup Timer Timer Interface
  *  Timer Interface. See \ref timer page for more details.
